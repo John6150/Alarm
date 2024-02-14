@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p id="tim"></p>
+    <input id="hour" type="number" placeholder="HH:HH" max="24"> <input id="min" type="number" placeholder="MM:MM" max="60">
+    <button onclick="setAlarm()">Set Alarm</button>
+
+    <audio id="ring">
+        <source src="alarm.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
+<script src="index.js"></script>
